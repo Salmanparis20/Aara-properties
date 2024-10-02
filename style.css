@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.modal-content{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.form-content {
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    padding: 40px;
+}
+.container .row{
+    margin-top: 5rem;
+}
+.modal-header .btn-close{
+        background: #831232;
+        position: absolute;
+        right: -1px;
+        top: -1px;
+        width: 60px;
+        height: 50px;
+        opacity: 1;
+        border-bottom-right-radius: 0px;
+        border-top-left-radius: 0;
+}
+.fa-user {
+    position: absolute;
+    top: 7rem;
+    right: 50px;
+    font-size: 20px;
+}
+.fa-envelope {
+    position: absolute;
+    top: 11.5rem;
+    right: 50px;
+    font-size: 18px;
+}
+.fa-phone {
+    position: absolute;
+    top: 15.5rem;
+    right: 50px;
+    font-size: 20px;
+}
+
+
+
+form input {
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid #eee !important;
+    outline: none !important;
+    padding: 0;
+}
+
+.form-control {
+    padding: 10px 3px !important;
+}
+
+.modal-content .title h2::after {
+    position: absolute;
+    content: "";
+    width: 50px;
+    height: 2px;
+    border-bottom: 3px solid #831232;
+    background-color: #831232;
+    left: 2.6rem;
+    top: 5.5rem;
+    /* bottom: -8px; */
+}
+
+.title h2 {
+    color: #586167;
+    font-family: "Montserrat", sans-serif;
+}
+
+.button {
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+}
